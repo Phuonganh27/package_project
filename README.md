@@ -5,6 +5,7 @@ This project aims to practice creating a Python package for exploratory data ana
 ## Package Structure
 
 - [`dataExplore/`](dataExplore/): The package folder containing the `DataExplorer` class and related functionality.
+- There is a csv file as sample data. This csv is used in test.py to test the `DataExplorer` class. 
 
 ## Usage
 
@@ -23,7 +24,7 @@ pip install pandas matplotlib seaborn numpy
 Here's a simple example of how to use the `DataExplorer` class:
 
 ```python
-from datainspect import DataExplorer
+from pa27_dataexplorer import DataExplorer
 
 # Instantiate the DataExplorer class with your dataset
 explorer = DataExplorer('data.csv')
