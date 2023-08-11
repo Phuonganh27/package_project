@@ -1,0 +1,22 @@
+## Step 0
+# test your package locally
+cd <your project folder>
+pip install . 
+
+## Step 1
+cd <your project folder>
+python setup.py sdist
+# install twine if not yet installed
+pip install twine
+
+## Step 2
+# command to upload to the pypi repository
+twine upload dist/*
+
+## Step 3
+# fill in username as __token__
+# enter your token as password
+
+## Step 4
+# Now you can directly pip install the package
+pip install pa27_dataexplorer
